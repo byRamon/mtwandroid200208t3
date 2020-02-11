@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="contacto1">Rosa Pérez</string>
+    <string name="contacto1Desc">Secretaria</string>
+    <string name="contacto2">Julián Arreguín</string>
+    <string name="contacto2Desc">Programador</string>
+    <string name="contacto3">Susy Ramírez</string>
+    <string name="contacto3Desc">Diseñadora</string>
+    <string name="title_activity_contacto">ContactoActivity</string>
+</resources>
