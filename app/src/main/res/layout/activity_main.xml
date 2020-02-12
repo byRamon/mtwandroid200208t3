@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/btnRosa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="155dp"
@@ -51,8 +51,9 @@
                     android:layout_marginTop="32dp"
                     android:text="@string/contacto1"
                     android:textSize="18sp"
+                    style="@style/H2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton3"
+                    app:layout_constraintStart_toEndOf="@+id/btnRosa"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -61,8 +62,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
                     android:text="@string/contacto1Desc"
+                    style="@style/Body"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton3"
+                    app:layout_constraintStart_toEndOf="@+id/btnRosa"
                     app:layout_constraintTop_toBottomOf="@+id/textView6" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -71,7 +73,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/btnJulian"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="155dp"
@@ -88,8 +90,9 @@
                     android:layout_marginTop="32dp"
                     android:text="@string/contacto2"
                     android:textSize="18sp"
+                    style="@style/H2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton4"
+                    app:layout_constraintStart_toEndOf="@+id/btnJulian"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -98,8 +101,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
                     android:text="@string/contacto2Desc"
+                    style="@style/Body"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton4"
+                    app:layout_constraintStart_toEndOf="@+id/btnJulian"
                     app:layout_constraintTop_toBottomOf="@+id/textView9" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -108,7 +112,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/btnSusy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="155dp"
@@ -124,9 +128,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
                     android:text="@string/contacto3"
+                    style="@style/H2"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton5"
+                    app:layout_constraintStart_toEndOf="@+id/btnSusy"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -135,8 +140,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
                     android:text="@string/contacto3Desc"
+                    style="@style/Body"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton5"
+                    app:layout_constraintStart_toEndOf="@+id/btnSusy"
                     app:layout_constraintTop_toBottomOf="@+id/textView11" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
